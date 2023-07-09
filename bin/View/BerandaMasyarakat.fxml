@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" style="-fx-background-color: #17594A;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BerandaMasyarakat">
+   <children>
+      <Button fx:id="button" layoutX="1321.0" layoutY="775.0" mnemonicParsing="false" onAction="#kembali1" prefHeight="40.0" prefWidth="165.0" styleClass="btnKembali" stylesheets="@../CSS/cssAnjay.css" text="Kembali" AnchorPane.bottomAnchor="40.0" AnchorPane.rightAnchor="35.0" />
+      <TableView prefHeight="418.0" prefWidth="1600.0" style="-fx-background-color: #F7FFE5;" AnchorPane.topAnchor="10.0">
+        <columns>
+          <TableColumn prefWidth="800.0" style="-fx-background-color: #A0C49D;" text="Nama Sungai &amp; Daerah" />
+          <TableColumn prefWidth="800.0" style="-fx-background-color: #A0C49D;" text="Value" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

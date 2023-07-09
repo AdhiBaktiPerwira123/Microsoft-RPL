@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" stylesheets="@../CSS/cssAnjay.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BerandaController">
+   <children>
+      <BorderPane prefHeight="900.0" prefWidth="1600.0" stylesheets="@../CSS/cssAnjay.css">
+         <top>
+            <Pane prefHeight="184.0" prefWidth="1600.0" style="-fx-background-color: #1dad9b;" styleClass="border" stylesheets="@../CSS/cssAnjay.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="203.0" layoutY="53.0" text="ECORIVER" textFill="#e8e8e8">
+                     <font>
+                        <Font name="System Bold" size="50.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="button" layoutX="1241.0" layoutY="64.0" mnemonicParsing="false" onAction="#informasi" styleClass="btnInformasi" stylesheets="@../CSS/cssAnjay.css" text="Informasi">
+                     <font>
+                        <Font name="Arial Narrow" size="30.0" />
+                     </font></Button>
+                  <Button fx:id="button" layoutX="1109.0" layoutY="64.0" mnemonicParsing="false" onAction="#berita" styleClass="btnBerita" stylesheets="@../CSS/cssAnjay.css" text="Berita">
+                     <font>
+                        <Font name="Arial Narrow" size="30.0" />
+                     </font></Button>
+                  <Button fx:id="button" layoutX="985.0" layoutY="61.0" mnemonicParsing="false" onAction="#daftarSungai" prefHeight="56.0" prefWidth="117.0" styleClass="btnSungai" stylesheets="@../CSS/cssAnjay.css" text="Sungai">
+                     <font>
+                        <Font name="Arial Narrow" size="30.0" />
+                     </font></Button>
+                  <Button fx:id="button" layoutX="1404.0" layoutY="61.0" mnemonicParsing="false" onAction="#admin" styleClass="btnAdmin" stylesheets="@../CSS/cssAnjay.css" text="Admin" textOverrun="WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Arial Narrow" size="30.0" />
+                     </font></Button>
+                  <ImageView fitHeight="164.0" fitWidth="173.0" layoutX="32.0" layoutY="9.0">
+                     <image>
+                        <Image url="@../Gambar/eCORIVER-4.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </top>
+         <center>
+            <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="743.0" fitWidth="1624.0" layoutX="-16.0" layoutY="-2.0" opacity="0.5">
+                     <image>
+                        <Image url="@../../beautiful-landscape-reflected-in-the-river-wallpaper-1920x1080_48.jpeg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </center></BorderPane>
+   </children>
+   <styleClass>
+      <String fx:value="bordorPane" />
+      <String fx:value="bckgroundUtama" />
+   </styleClass>
+</AnchorPane>

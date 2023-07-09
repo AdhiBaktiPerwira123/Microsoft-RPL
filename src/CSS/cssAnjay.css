@@ -1,0 +1,124 @@
+.btnKembali {
+    -fx-background-color: #8EAC50;
+    -fx-cursor: hand;
+}
+
+.btnKembali:hover {
+    -fx-background-color: yellow;
+}
+
+.bckgroundUtama{
+    -fx-backgroung-image: url('/src/Gambar/kazuend-cCthPLHmrzI-unsplash.jpg')
+}
+
+
+.btn {
+    -fx-background-color: #17594A;
+    -fx-cursor: hand;
+}
+
+.btn:hover {
+    -fx-background-color: yellow;
+}
+
+
+.btn1 {
+    -fx-background-color: #8EAC50;
+    -fx-cursor: hand;
+}
+
+.btn1:hover {
+    -fx-background-color: yellow;
+}
+
+
+.btnlogin {
+    -fx-background-color: #8EAC50;
+}
+
+.btnlogin:hover {
+    -fx-background-color: #D3D04F;
+}
+
+.btnAdmin {
+    -fx-background-color: transperent;
+    -fx-cursor: hand;
+
+}
+
+.btnAdmin:hover {
+    -fx-background-color: #F7DB6A;
+}
+
+
+.btnInformasi {
+    -fx-background-color: transperent;
+    -fx-cursor: hand;
+
+}
+
+.btnInformasi:hover {
+    -fx-background-color: #F7DB6A;
+}
+
+.btnBerita {
+    -fx-background-color: transperent;
+    -fx-cursor: hand;
+
+}
+
+.btnBerita:hover {
+    -fx-background-color: #F7DB6A;
+}
+
+.btnSungai {
+    -fx-background-color: transperent;
+    -fx-cursor: hand;
+
+
+}
+
+
+.btnSungai:hover {
+    -fx-background-color: #F7DB6A;
+}
+
+.border {
+    -fx-border-color: black;
+    -fx-background-color: #D3D04F;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.bordorPane {
+    -fx-border-radius: 10px;
+}
+
+.berita {
+    -fx-background-color: #17594A;
+}
+
+
+
+.trasparan {
+    -fx-background-color: transperent;
+}
+
+.btnLab{
+    -fx-background-color: #0EA293;
+
+    -fx-background-color:linear-gradient(to bottom right , #1dad9b, #79E0EE );
+}
+.bgpilihan{
+    -fx-background-color: #0EA293;
+
+    -fx-background-color:linear-gradient(to bottom right ,  #1dad9b, #79E0EE );
+}
+
+.btnDLH{
+    -fx-background-color:linear-gradient(to bottom right ,  #05BFDB, #79E0EE );
+}
+.tblView{
+    -fx-background-color:linear-gradient(to bottom right ,  #05BFDB, #45CFDD );
+}
+
